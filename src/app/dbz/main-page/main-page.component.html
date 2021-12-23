@@ -4,12 +4,12 @@
 
   <div class="col">
     <!--Comunicacion padre hijo-->
-    <app-personajes [data]="personajes"></app-personajes>
+    <app-personajes></app-personajes>
   </div>
   <div class="col">
     <app-insertar
       [nuevo] = "nuevo"
-      (nuevoPersonaje)="agregarNuevoPersonaje( $event )"
+
     ></app-insertar>
   </div>
 
